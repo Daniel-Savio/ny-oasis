@@ -1,5 +1,5 @@
 import "./App.css";
-import Icon from "../public/Icon.png"
+import Icon from "../public/Icon.png";
 // import IconBg from "../public/Icon-bg.png"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <header className=" fixed top-0 flex p-2 justify-center w-full align-middle">
         <img
-          className=" absolute drop-shadow-2xl left-10 w-12"
+          className=" absolute drop-shadow-2xl left-3 top-1 w-11"
           src={Icon}
           alt=""
         />

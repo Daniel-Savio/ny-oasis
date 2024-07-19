@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
+import Doni from "../../public/Dnoi.jpg";
 
 export default function home() {
   return (
-    <div>
-      <section className="bg-gradient-to-tl from-orange-300 to-zinc-50  pt-20 px-2 h-screen">
+    <div className="h-screen bg-gradient-to-tl from-orange-300 to-zinc-50  pt-20 px-2 ">
+      <section className="">
         <div className="flex w-full justify-center text-xl ">
           <h1 className="relative font-sans font-bold align-baseline gap-1 flex">
             Ny {""}
@@ -33,9 +34,29 @@ export default function home() {
             </motion.div>
           </h1>
         </div>
+      </section>
 
-        <div className="m-5">
-          <h1>Next Section</h1>
+      <section className="m-5 justify-center text-center align-middle  md:flex md:justify-around md:gap-2 ">
+        <div className="p-3 mx-auto my-5 shadow-lg bg-zinc-50 rounded-md w-fit">
+          <img className="rounded-md w-80" src={Doni} alt="" />
+        </div>
+
+        <div className="">
+          <h1 className=" w-fit font-bold gap align-top md:text-lg">
+            O que você quer com o que seu cabelo
+            <motion.div
+              className="min-w-14 rounded-md h-fit pb-2 border-b-solid text-primary w-full px-2 font-cursive font-thin"
+              initial={{ backgroundColor: "", opacity: 0 }}
+              animate={{ backgroundColor: "white", opacity: 1, y: -5 }}
+              transition={{
+                duration: 0.4,
+                delay: 0.5,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              precisa !
+            </motion.div>
+          </h1>
         </div>
       </section>
     </div>
