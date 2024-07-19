@@ -10,9 +10,9 @@ import { Tabs, TabsList, TabsTrigger } from "./components/ui/tabs";
 function App() {
   return (
     <BrowserRouter>
-      <header className=" fixed top-0 flex p-2 justify-center w-full">
+      <header className=" fixed top-0 flex p-2 justify-center w-full align-middle">
         <img
-          className=" absolute drop-shadow-2xl left-10 w-10"
+          className=" absolute drop-shadow-2xl left-10 w-12"
           src={Icon}
           alt=""
         />

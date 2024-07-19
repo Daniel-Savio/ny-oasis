@@ -60,6 +60,7 @@ export const theme = {
     },
     fontFamily: {
       sans: ["Inter"],
+      cursive: ["Pacifico"],
     },
     keyframes: {
       "accordion-down": {
